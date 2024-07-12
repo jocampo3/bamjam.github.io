@@ -1,5 +1,5 @@
 .bj-logo {
     display: grid;
     place-items: center;
-    padding-left: 650px;
+    width: 200px;
 }
