@@ -1,5 +1,60 @@
-.bj-logo {
-    display: grid;
-    place-items: center;
-    width: 200px;
+/* HEADERS */
+header {  
+    display: flex;
+    justify-content: start;
+    background-color: antiquewhite;
+}
+
+header #logo {
+    /* display: block; */
+    padding-left: 500px;
+    width: 8%;
+    /* border-radius: 50%; */
+}
+
+header .headerMenu {    
+    display: flex;    
+    margin-left: auto;    
+    padding-right: 400px;    
+    font-family: 'Franklin Gothic Medium';    
+    font-size: small;
+}   
+
+.headerMenu .home {    
+    padding-right: 50px;
+}
+.headerMenu .about {    
+    padding-right: 50px;
+}
+
+.headerMenu .contact {    
+    padding-right: 50px;
+}
+
+/* MAINS */
+
+/* main {} */
+main .menu {    
+    background-color: aliceblue;    
+    display: flex;    
+    padding-left: 43%;    
+    font-family: 'Franklin Gothic Medium';    
+    font-size: large;
+}
+
+.menu .games {    
+    padding-right: 10px;
+}
+
+.menu .publishing {    
+    padding-right: 10px;
+}
+
+.menu .shop {    
+    padding-right: 10px;
+}
+
+.main .section_1 {    
+    text-align: center;    
+    font-family:'Franklin Gothic Medium';
 }
