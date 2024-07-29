@@ -20,15 +20,29 @@ header .headerMenu {
     font-size: small;
 }   
 
-.headerMenu .home {    
-    padding-right: 50px;
-}
-.headerMenu .about {    
-    padding-right: 50px;
+.headerMenu button {
+    background-color: rgb(210, 200, 200);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    border-radius: 120px;
+    transition-duration: 0.4s;
 }
 
-.headerMenu .contact {    
-    padding-right: 50px;
+.headerMenu button:hover {
+    background-color: black;
+    color: white;
+}
+
+.home {
+    padding-right: 15px;
+}
+.about {
+    padding-right: 15px;
 }
 
 /* MAINS */
