@@ -2,7 +2,7 @@
 header {  
     display: flex;
     justify-content: start;
-    background-color: antiquewhite;
+    background-color: whitesmoke;
 }
 
 header #logo {
@@ -30,7 +30,7 @@ header .headerMenu {
     display: inline-block;
     font-size: 8px;
     border-radius: 120px;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
 }
 
 .headerMenu button:hover {
