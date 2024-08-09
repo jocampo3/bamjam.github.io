@@ -15,13 +15,14 @@ header #logo {
 header .headerMenu {    
     display: flex;    
     margin-left: auto;    
-    padding-right: 400px;    
+    padding-right: 20%;   
+    margin-top: 40px; 
     font-family: 'Franklin Gothic Medium';    
     font-size: small;
 }   
 
 .headerMenu button {
-    background-color: rgb(210, 200, 200);
+    background-color: rgb(219, 96, 96);
     border: none;
     color: white;
     padding: 15px 32px;
@@ -49,7 +50,7 @@ header .headerMenu {
 
 /* main {} */
 main .menu {    
-    background-color: aliceblue;    
+    background-color: rgb(219, 96, 96);    
     display: flex;    
     padding-left: 43%;    
     font-family: 'Franklin Gothic Medium';    
